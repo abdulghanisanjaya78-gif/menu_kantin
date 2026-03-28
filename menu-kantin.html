@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+    <div class="input">
+        <h1 id="warna">Data menu</h1>
+        silahkan masukkan daftar makanan yang akan di masukan ke menu
+        <input type="text" class="form" id="nama" placeholder="Nama Makanan/Minuman">
+        <input type="number" class="form" id="harga" placeholder="Harga">
+        <input type="text" class="form" id="jenis" placeholder="makanan berat/makanan ringan">
+        <div class="button-input">
+    <button class="add-button"onclick="tambahdata()">Tambah Data</button>
+    <button class="delete-button" onclick="hapusdata()">Hapus Data</button>
+    <button class="edit-button" onclick="editdata()">Ubah Data</button>
+    <button class="change-theme" onclick="changetheme()">Ganti Warna</button>
+    </div>
+    </div>
+    <div class="div-menu"><h1>menu</h1><div id="output"></div></div>
+    </div>
+</body>
+</html>
